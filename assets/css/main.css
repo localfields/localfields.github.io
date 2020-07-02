@@ -2,8 +2,8 @@
 layout: null
 ---
 
-/* @import url("pygment_highlights.css"); */
-@import url("rouge_syntax.css");
+@import url("pygment_highlights.css");
+
 /* --- General --- */
 
 html {
@@ -11,10 +11,8 @@ html {
 }
 
 body {
-  /* font-family: 'Lora', 'Times New Roman', serif; */
-  font-family: 'Noto Sans SC', 'Roboto', sans-serif;
-  /* font-size: 1.125rem; */
-  font-size: 1rem;
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-size: 1.125rem;
   color: #404040;
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
@@ -24,17 +22,16 @@ body {
   {% endif %}
 }
 p {
-  line-height: 1.2; /* 1.5*/
+  line-height: 1.5;
   margin: 1.875rem 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  /* font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
-  font-family: 'Roboto', 'Noto Sans SC', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
 }
 h1 {
-  font-size: 2.0rem;
+  font-size: 2.25rem;
 }
 h2 {
   font-size: 1.875rem;
